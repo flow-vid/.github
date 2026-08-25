@@ -19,9 +19,14 @@ FlowVid plays video with [mpv](https://github.com/mpv-player/mpv) and [FFmpeg](h
 - [**flowvid-libmpv-desktop**](https://github.com/flow-vid/flowvid-libmpv-desktop): LGPL libmpv for the desktop app (Windows `.dll` + Linux `.so`), plus the Tauri mpv plugin (MPL-2.0).
 - [**flowvid-mpv-winbuild-cmake**](https://github.com/flow-vid/flowvid-mpv-winbuild-cmake): the pinned Windows build recipe for the above.
 - [**android-mpv**](https://github.com/flow-vid/android-mpv): LGPL libmpv for the mobile and TV apps.
-- [**flowvid-media3-ffmpeg**](https://github.com/flow-vid/flowvid-media3-ffmpeg): LGPL FFmpeg audio decoder (AC-3 / E-AC-3) for ExoPlayer, packaged as an AAR.
+- [**flowvid-media3-ffmpeg**](https://github.com/flow-vid/flowvid-media3-ffmpeg): LGPL FFmpeg audio decoder for AC-3, E-AC-3, DTS, MLP and TrueHD, packaged as an AAR for Media3.
+- [**flowvid-libdovi-android**](https://github.com/flow-vid/flowvid-libdovi-android): MIT libdovi JNI bridge for Profile 7 MEL to Profile 8.1 metadata conversion on Android.
 
 Each component is built and published in compliance with the licenses of its upstream project.
+
+Security issues in these components should be reported privately through the repository's
+**Security** tab. Product support and general feedback belong at
+[flow-vid.com/support](https://flow-vid.com/support), not in build-recipe issue trackers.
 
 ---
 
