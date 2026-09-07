@@ -10,7 +10,7 @@
 
 ---
 
-FlowVid is a commercial, closed-source app. This organization hosts the **open-source components** it is built on and has modified, each published under its original license.
+FlowVid is a commercial, closed-source app. This organization hosts the **open-source components** it is built on and has modified. Nothing here is relicensed: each repository keeps its upstream license and history.
 
 ### Media playback (mpv + FFmpeg)
 
@@ -23,7 +23,9 @@ FlowVid plays video with [mpv](https://github.com/mpv-player/mpv) and [FFmpeg](h
 - [**flowvid-libdovi-android**](https://github.com/flow-vid/flowvid-libdovi-android): MIT libdovi JNI bridge for Profile 7 MEL to Profile 8.1 metadata conversion on Android.
 - [**flowvid-ffmpeg-web**](https://github.com/flow-vid/flowvid-ffmpeg-web): LGPL FFmpeg audio and subtitle decoders compiled to WebAssembly, for the web app.
 
-Each component is built and published in compliance with the licenses of its upstream project.
+Each component is built and published in compliance with the licenses of its upstream project. The
+Windows build recipe carries no license of its own because its upstream publishes none, and it ships
+no binaries.
 
 Security issues in these components should be reported privately through the repository's
 **Security** tab. Product support and general feedback belong at
