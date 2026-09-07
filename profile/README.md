@@ -21,7 +21,6 @@ FlowVid plays video with [mpv](https://github.com/mpv-player/mpv) and [FFmpeg](h
 - [**flowvid-libmpv-android**](https://github.com/flow-vid/flowvid-libmpv-android): LGPL libmpv for the mobile and TV apps.
 - [**flowvid-ffmpeg-android**](https://github.com/flow-vid/flowvid-ffmpeg-android): LGPL FFmpeg audio decoder for AC-3, E-AC-3, DTS, MLP and TrueHD, packaged as an AAR for Media3.
 - [**flowvid-libdovi-android**](https://github.com/flow-vid/flowvid-libdovi-android): MIT libdovi JNI bridge for Profile 7 MEL to Profile 8.1 metadata conversion on Android.
-- [**flowvid-ffmpeg-web**](https://github.com/flow-vid/flowvid-ffmpeg-web): LGPL FFmpeg audio and subtitle decoders compiled to WebAssembly, for the web app.
 
 Each component is built and published in compliance with the licenses of its upstream project. The
 Windows build recipe carries no license of its own because its upstream publishes none, and it ships
